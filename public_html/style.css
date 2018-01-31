@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Jan, 2018, 8:51:44 PM
+    Author     : user
+*/
+
+body{
+    background-color: #f0f0f0;
+    color: #555555;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0px
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.container{
+ width: 80%;
+ margin: auto;
+}
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border: 5px solid red;
+    padding: 20px;
+}
+.box-1 h1{
+    font-family: Tahoma; 
+    font-weight: 800;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin : 20px 0px;
+    border-radius: 15px;
+}
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;    
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.my-form{
+    padding: 20px;
+}
+.form-group{
+    padding-bottom: 15px
+}
+.my-form label{
+    display: block;
+}
